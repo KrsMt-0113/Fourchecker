@@ -4,7 +4,7 @@
 
 ## 功能特性
 
-- 🔍 **钱包地址验证**: 检查 BSC 链上的钱包地址
+- 🔍 **钱包地址验证**: 检查 BSC 链的钱包地址
 - 🎯 **空投资格检查**: 基于特定时间段的流入流出数据判断资格
 - 🌐 **代理支持**: 使用 Cloudflare Workers 代理避免 CORS 问题
 - 📱 **响应式设计**: 支持桌面和移动设备
@@ -15,11 +15,10 @@
 - **前端**: HTML5, CSS3, JavaScript (ES6+)
 - **API**: Arkham Intelligence API
 - **代理**: Cloudflare Workers (hwcrawler.krsmt0113.workers.dev)
-- **样式**: 现代化渐变背景，毛玻璃效果
 
 ## 使用方法
 
-1. 打开 `index.html` 文件
+1. 打开网页
 2. 在输入框中输入要检查的钱包地址（0x...格式）
 3. 点击 "Check Eligibility" 按钮
 4. 查看检查结果
@@ -43,18 +42,6 @@ WalletCheker/
 └── README.md           # 说明文档
 ```
 
-## 部署到 GitHub Pages
-
-1. 将所有文件上传到 GitHub 仓库
-2. 在仓库设置中启用 GitHub Pages
-3. 选择主分支作为源
-4. 访问 `https://yourusername.github.io/repository-name` 即可使用
-
-## 注意事项
-
-- API Key 已内置在前端代码中
-- 使用代理服务避免 CORS 跨域问题
-- 所有数据都在客户端处理，不会存储用户信息
 
 ## 作者
 
